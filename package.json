@@ -1,0 +1,13 @@
+{
+  "name": "form-prefill",
+  "version": "0.0.1",
+  "dependencies": {},
+  "repository": {},
+  "devDependencies": {
+    "faker": "^2.1.3",
+    "http-server": "0.8.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"oland",
+				"olanding_layout_name"
+			],
+			[
+				"time",
+				"time_diff"
+			],
+			[
+				"sure",
+				"sureinsure_woman_forms"
+			],
+			[
+				"three_step",
+				"three_step_minimal_foundation"
+			],
+			[
+				"form",
+				"FormLabelLong"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"advertorial",
+				"advertorial_link_domain"
+			],
+			[
+				"Savings",
+				"Savings™"
+			],
+			[
+				"get",
+				"get_assets_path"
+			],
+			[
+				"span",
+				"apple-column-span"
+			],
+			[
+				"oauto",
+				"oauto_form_page"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jason/Documents/CodeLibrary/form-prefill/prefill-ie.js",
+			"settings":
+			{
+				"buffer_size": 3989,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jason/Documents/CodeLibrary/form-prefill/snippet-ie.html",
+			"settings":
+			{
+				"buffer_size": 336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jason/Documents/CodeLibrary/form-prefill/snippet.html",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jason/Documents/CodeLibrary/form-prefill/prefill.js",
+			"settings":
+			{
+				"buffer_size": 3866,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"timmer",
+				"Trimmer: Remove blank spaces."
+			],
+			[
+				"trimmer",
+				"Trimmer: Trim leading whitespace."
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"CoffeeToJs: Convert file"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 462.0
+	},
+	"console":
+	{
+		"height": 521.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jason/Documents/CodeLibrary/form-prefill"
+	],
+	"file_history":
+	[
+		"/Users/jason/Desktop/jira-tickets.txt",
+		"/Users/jason/Documents/CodeLibrary/form-prefill/snippet-ie.html",
+		"/Users/jason/Documents/CodeLibrary/form-prefill/prefill-ie.js",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/common/_form_disclosure.html.haml",
+		"/Users/jason/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jason/Documents/Everquote/Projects/lynx/.gitignore",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/common/_form_disclosure.mobile.haml",
+		"/Users/jason/Documents/Everquote/Documents/eq-notes.txt",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/_everquote.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/everquote/_click_ads.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/everquote/_no_quotes.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/everquote/_quote_ads.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/spec/support/integration_helper.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/three_step_minimal_foundation_spanish/_s3_coverage.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/javascripts/exits/everquote/quoted-ads.js.coffee",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/quoted_exit_partials/_click_ads.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/index.mobile.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/index.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/_generic_thankyou.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits/_split_level.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/common/_coverage_questions.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/common/_auto_questions.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/fullform/_s1.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forums/index.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forums/show.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forum_posts/_form.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forum_posts/show.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/config/routes.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/content/forum_posts_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/evqt_profiles/sessions_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/content/forums_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/forum_post.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/themes/everquote/_definitions.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/themes/everquote/_forums.scss",
+		"/Users/jason/Dropbox/TechDesk/bash-cli/snippets.txt",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/themes/everquote/_header.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate/20150504180859_create_forums.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate/20150504180914_create_forum_posts.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seeds.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seed_data/forum_comments.csv",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forum_posts/new.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/lib/evqt/client.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/forum_comment.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate/20150504180929_create_forum_comments.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seed_data/forum_posts.csv",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/themes/everquote/_functions.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/feedbacks/index.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/config/configatron/development.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/config/configatron/defaults.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/forum.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seed_data/forums.csv",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seed_data/forum_posts_categories.csv",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seed_data/forum_categories.csv",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate/20150504181018_create_forum_votes.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate/20150504180944_create_forum_categories.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate/20150504181004_create_forum_posts_categories.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/forum_category.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/three_step_minimal_foundation/_s2_primarydriver.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/three_step_minimal/_s2_primarydriver.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/three_step_minimal_foundation/less-than-ie9.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/three_step_minimal_foundation/_form.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/myquote_non_sem/less-than-ie9.css.scss",
+		"/Users/jason/Desktop/browser-testing.txt",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/sureinsure_woman_forms/_forms-pages.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/javascripts/auto_policy.js",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/fullform/_base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/three_step_minimal/less-than-ie9.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/three_step_minimal/base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/three_step_minimal/_s1_primaryauto.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/myquote_non_sem/_s2_primarydriver.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/myquote_non_sem/base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/javascripts/forms/myquote_form.js",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/common/_driver_questions_2column.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/home/fullform/base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/life/fullform/base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/forms/auto/three_step_blue_bg_mobile_foundation/_form-specific.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/themes/everquote/style.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/forums/_base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/blog_layouts/_shared.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/blog_layouts/_base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/forums/theme.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/forums/_shared.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/forums/_foundation-setup.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/blog_layouts/_foundation-setup.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/blog_layouts/theme.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/blog_layouts/styles.css",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/forums/styles.css",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/three_step_minimal_foundation/_s1_primaryauto.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/three_step_minimal_foundation/_s3_coverage.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/three_step_minimal/_s3_coverage.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/layouts/everquote.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forum_posts/index.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/layouts/evqt_profiles.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/forum_posts_category.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/forum_vote.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seed_data/api_users.csv",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/session.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/api_user.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/Gemfile",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/user.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/models/visitor.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate/20120328122859_create_users.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/application_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/content/content_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/evqt_profiles/accounts_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/evqt_profiles/sessions/new.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forums/_sign_in.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/evqt_profiles/accounts/_form.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/landings/_advertorial_mass_overpay.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/auto_policies/autos/_new.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/db/seed_data/settings.txt",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/landings/_display1.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/landings/_advertorial_affiliate_new_mobile.mobile.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/landings/advertorial_mass_overpay/_settings.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/landings/advertorial_mass_overpay/_base.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/landings/advertorial_mass_overpay/_content.css.scss",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forums/forum_posts/_form.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/admin/administration_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/content_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forums/_form.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/forums/forum_posts/index.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/_minizipsubmit.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/layouts/myquote_content_page.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/views/content/blog/_post_metadata.html.haml",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/admin/api_users_controller.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/config/initializers/configatron.rb",
+		"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers/admin/users_controller.rb",
+		"/Users/jason/Documents/Everquote/Documents/advice-forum-notes.txt"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/controllers",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets",
+			"/Users/jason/Documents/Everquote/Projects/lynx",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views/landings",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views/themes/everquote",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/javascripts",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets",
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/javascripts",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/content/blog_layouts",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets/themes/everquote",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app",
+			"/Users/jason/Documents/Everquote/Projects/lynx/controllers",
+			"/Users/jason/Documents/Everquote/Projects/lynx/db/migrate",
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets",
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/assets/stylesheets",
+			"/Users/jason/Documents/Everquote/Projects/lynx/",
+			"/Users/jason/Documents/Everquote/Projects/lynx",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views",
+			"/Users/jason/Documents/Everquote/Projects/lynx/app/views/exits",
+			"/Users/jason/Documents/Everquote/Projects/lynx"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"By clicking this button and submitting this form",
+			"tcpa",
+			"city",
+			"EverQuote partnered agents",
+			"tcpa",
+			"LYNX-1130",
+			"content\\:",
+			"post",
+			"string",
+			"flash",
+			"    =",
+			"RAILS_ENV",
+			"');",
+			"#auto_policy_insurance_lapse_months",
+			".FormSelectField",
+			"#auto_policy_insurance_lapse_months",
+			".FormSelectField",
+			"state",
+			".FormLabelLong",
+			"label",
+			"#auto_policy_insurance_lapse_months",
+			"FormSelectField",
+			".FormSelectField",
+			"lapseInput",
+			"Have you been without insurance for any time in the past 6 months?",
+			"\\.FormLabelLong",
+			"36",
+			"37",
+			"devise",
+			"user",
+			"current_user",
+			"sessions",
+			" \\(get_setting\\('advertorial_sidebar_link_domain'\\) \\|\\| 'http\\:\\/\\/auto\\-rate\\-finder\\.com'\\)\\.html_safe ",
+			" \\(get_setting\\('advertorial_link_domain'\\) \\|\\| 'http:\\/\\/provide\\-savings\\.com'\\)\\.html_safe ",
+			"session",
+			"\\@current_user",
+			"@current_user",
+			"current_user",
+			"forum_id",
+			"form_for",
+			"Evqt::Client",
+			"configatron.evqt",
+			"namespace",
+			"blog",
+			"pick",
+			",",
+			"AgentListing",
+			"ab_new_testimonial",
+			"(higher_testimonial)",
+			"higher_testimonial",
+			"get_ab_test_value",
+			"image_tag",
+			".customer-quote",
+			".fancy-image",
+			"personalized_headline",
+			"defaulted_questions",
+			"car_slider_continue_button",
+			"fullform",
+			"#TopWrapper",
+			"#TopLeft",
+			"TopLeft",
+			"background\\: image-url\\(\"themes\\/bluegradientbg\\/background\\.png\"\\)",
+			"background\\: image-url\\(\\/themes\\/bluegradientbg\\/background\\.png\\)",
+			"background\\: url\\(\\/themes\\/bluegradientbg\\/background\\.png\\)",
+			"background\\: url\\(\\/assets\\/themes\\/bluegradientbg\\/background\\.png\\)",
+			"background: url(/assets/themes/bluegradientbg/background.png)",
+			".ListingButton",
+			"cloudbrokr",
+			"jquery",
+			"\\#zip-landing",
+			"\\.about-nav",
+			".about",
+			"about-nav",
+			"upper-bound",
+			"zip-submit-window",
+			"zip-submit-window-sticky",
+			"zip-submit",
+			"zip-submit-window-sticky",
+			"get_setting",
+			"click_to_call_mobile_button_text",
+			"%title",
+			"page_title",
+			"%title",
+			"padding",
+			"date",
+			"\\@state",
+			"param",
+			"params",
+			"\\.about-nav",
+			"about-nav",
+			"posts-container",
+			"\\[class\\*\\=",
+			"\\*\\=",
+			"\\class\\*\\=",
+			"\\[class\\*=]",
+			"\\!default",
+			"assets",
+			"permalink",
+			";\n",
+			"      }",
+			"\n    ",
+			"row",
+			"shiv",
+			"display_beigee",
+			"expando",
+			"\\= link_to\\{ href: ",
+			"= link_to{ href: ",
+			"\\%a",
+			"landings",
+			"%a",
+			"mq-or-not",
+			";\n",
+			"show-for-large-only'",
+			"image_tag",
+			":after",
+			"tid",
+			"compliance@amn.com",
+			"compliance_address",
+			"compliance@amn.com",
+			"If you have any questions or concerns regarding this policy, you should first send an email to compliance@amn.com",
+			"compliance_address",
+			"compliance\\@amn.com",
+			"zip_submit",
+			"def public_send",
+			"public_send",
+			"zip_submit",
+			"blog_helper",
+			"def domain_stripped"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"advertorial_sidebar_link_domain",
+			"advertorial_link_domain",
+			"ab_higher_testimonial",
+			"",
+			"= link_to ",
+			"= link_to",
+			"#{compliance_address}",
+			"\\.logo-montage",
+			"",
+			"ab_personalize_questions",
+			"personalized_questions"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jason/Documents/CodeLibrary/form-prefill/prefill-ie.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3727,
+								3790
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jason/Documents/CodeLibrary/form-prefill/snippet-ie.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jason/Documents/CodeLibrary/form-prefill/snippet.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Users/jason/Documents/CodeLibrary/form-prefill/prefill.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1031,
+								1098
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.450934348904,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 271.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lynx-form-prefill.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"auto_policy.js",
+				"Lynx/app/assets/javascripts/auto_policy.js"
+			],
+			[
+				"create_user",
+				"Lynx/db/migrate/20120328122859_create_users.rb"
+			],
+			[
+				"evqt",
+				"Lynx/lib/evqt/client.rb"
+			],
+			[
+				"config",
+				"Lynx/config/initializers/configatron.rb"
+			],
+			[
+				"configatron",
+				"Lynx/config/configatron/defaults.rb"
+			],
+			[
+				"agent_",
+				"Lynx/db/migrate/20141121170921_create_agent_listings.rb"
+			],
+			[
+				"user",
+				"Lynx/app/models/user.rb"
+			],
+			[
+				"theme",
+				"Lynx/app/assets/stylesheets/landings/advertorial_mass_overpay/theme.css.scss"
+			],
+			[
+				"blog",
+				"Lynx/app/decorators/blog_layout_decorator.rb"
+			],
+			[
+				"configset",
+				"app/models/config_set.rb"
+			],
+			[
+				"foundation/_s1",
+				"app/views/auto_policies/fullform_mobile_foundation/_s1.mobile.haml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 533.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 146.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
