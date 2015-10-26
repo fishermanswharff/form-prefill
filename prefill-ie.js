@@ -7,6 +7,8 @@
     };
   };
 
+  trace('hello world', window.document);
+
   // don't run if jQuery isn't loaded
   if (typeof window.jQuery === 'undefined') {
     trace('jquery not present');
@@ -19,7 +21,7 @@
     return Math.floor(Math.random() * (max- min + 1)) + min;
   };
 
-  var fillMake = function(){
+  /*var fillMake = function(){
     $('select#auto_policy_autos_attributes_0_make').each(function(){
       $(this).on('change',function(){
         setTimeout(function(){
@@ -29,13 +31,13 @@
 
       data.randomizeSelect(this);
     });
-  };
+  };*/
 
-  var fillModel = function(){
+  /*var fillModel = function(){
     $('select#auto_policy_autos_attributes_0_vehicle_model').each(function(){
       data.randomizeSelect(this);
     });
-  };
+  };*/
 
   var fillForm = function() {
     data = new FormData(win.faker);
@@ -51,7 +53,7 @@
 
     data.randomizeRadio($('[name="radio-choice"]'));
 
-    $('select#auto_policy_autos_attributes_0_year').each(function(){
+    /*$('select#auto_policy_autos_attributes_0_year').each(function(){
       $(this).on('change',function(){
         setTimeout(function(){
           fillMake()
@@ -59,7 +61,7 @@
       });
 
       data.randomizeSelect(this);
-    });
+    });*/
 
     // Randomize all select boxes
     $('select:not(#auto_policy_autos_attributes_0_year):not(#auto_policy_autos_attributes_0_vehicle_model):not(#auto_policy_autos_attributes_0_vehicle_model)').each(function() {
