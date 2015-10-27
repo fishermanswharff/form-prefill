@@ -25,19 +25,10 @@ document.getElementsByTagName('body')[0].appendChild(script);
     var select = doc.getElementById('auto_policy_autos_attributes_0_make');
     $(select).on('change', function(){
       setTimeout(function(){
-        console.log('fillModel is being called');
         fillModel();
-      }, 1000)
+      }, 1000);
     });
     data.randomizeSelect(select);
-
-    // $('select#auto_policy_autos_attributes_0_make').each(function(){
-    //   $(this).on('change',function(){
-    //     setTimeout(function(){
-    //       fillModel()
-    //     },1000)
-    //   });
-    // });
   };
 
   // selects the vehicle model
@@ -104,7 +95,6 @@ document.getElementsByTagName('body')[0].appendChild(script);
       $('#auto_policy__x_vehicle_count').find('option[value=1]').prop('selected',true);
       $('label[for=auto_policy_drivers_attributes_0_gender_Female]').trigger('click');
       $('label[for=auto_policy_drivers_attributes_0_marital_status_Married]').trigger('click');
-
       // submit the form with this line:
       // $('#submit-button').trigger('click');
     }
