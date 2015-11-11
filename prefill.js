@@ -20,46 +20,52 @@ document.getElementsByTagName('body')[0].appendChild(script);
   // for randomizing the form fields/selections/checkboxes/radio buttons
   var _rand = function(min, max) { return Math.floor(Math.random() * (max- min + 1)) + min; };
 
-  // selects the vehicle make
-  var fillMake = function(){
-    var select = doc.getElementById('auto_policy_autos_attributes_0_make');
-    $(select).on('change', function(){
-      setTimeout(function(){
-        fillModel();
-      }, 1000);
-    });
-    data.randomizeSelect(select);
-  };
-
-  // selects the vehicle model
-  var fillModel = function(){
-    var select = doc.getElementById('auto_policy_autos_attributes_0_vehicle_model');
-    data.randomizeSelect(select);
-  };
 
   var fillOutLanding = function(){
     data = new FormData(win.faker);
     if($(doc.body).hasClass('eq-style')){
       $('#landing-zip-code').val(data.zip).trigger('keyup');
       $('#reason-for-quote').find('option').last().prop('selected', true);
-      $('#zip-landing').submit();
+      // $('#zip-landing').submit();
     } else {
       // you're on a different landing than everquote
     }
   };
 
   var fillOutAutoPolicy = function(){
-    var is_everquote = $(doc.body).hasClass('eq-style');
     data = new FormData(win.faker);
 
+    var is_everquote = $(doc.body).hasClass('eq-style'),
+        yearSelect = doc.getElementById('auto_policy_autos_attributes_0_year'),
+        makeSelect = doc.getElementById('auto_policy_autos_attributes_0_make'),
+        fillYear, fillMake, fillModel;
 
-    data.randomizeSelect(doc.getElementById('auto_policy_autos_attributes_0_year'));
-    setTimeout(function(){
-      fillMake()
-    }, 1000);
+    // selects the vehicle model
+    fillModel = function(){
+      var select = doc.getElementById('auto_policy_autos_attributes_0_vehicle_model');
+      $(select).children().eq(_rand(0,$(select).children().length - 1)).prop('selected', true).trigger('change');
+    };
+
+    // selects the vehicle make
+    fillMake = function(){
+      $(makeSelect).children().eq(_rand(0,$(makeSelect).children().length - 1)).prop('selected', true).trigger('change');
+      setTimeout(function(){
+        fillModel();
+      },2000)
+    };
+
+    // selects the year randomly
+    fillYear = function(){
+      $(yearSelect).children().eq(_rand(0,$(yearSelect).children().length - 1)).prop('selected', true).trigger('change');
+      setTimeout(function(){
+        fillMake();
+      },2000)
+    };
+
+    fillYear();
 
     // Randomize all select boxes
-    $('select:not(#auto_policy_autos_attributes_0_year):not(#auto_policy_autos_attributes_0_vehicle_model):not(#auto_policy_autos_attributes_0_vehicle_model)').each(function() {
+    $('select:not(#auto_policy_autos_attributes_0_year):not(#auto_policy_autos_attributes_0_make):not(#auto_policy_autos_attributes_0_vehicle_model):not(#auto_policy_autos_attributes_0_submodel)').each(function() {
       data.randomizeSelect(this);
     });
 
@@ -130,15 +136,15 @@ document.getElementsByTagName('body')[0].appendChild(script);
 
   FormData.prototype.randomizeSelect = function(el){
     var $el = $(el);
-    len  = $el.find('option').length - 1;
-    $el.children('option').prop('selected', false).eq( _rand( 1,len + 1 ) ).prop('selected', true);
-    $el.trigger('change');
+    len = $el.find('option').length;
+    $el.children().eq(_rand(1,len - 1)).prop('selected', true).trigger('change');
+    return false
   };
 
   FormData.prototype.randomizeRadio = function(radios) {
     radios = radios.not('[type="hidden"]');
-    len    = radios.length;
-    radios.prop('checked', false).eq( _rand( 0, len - 1 ) ).prop('checked', true);
+    len = radios.length;
+    radios.prop('checked', false).eq( _rand(1, len - 1 ) ).prop('checked', true);
   };
 
   FormData.prototype.randomizeParagraph = function(el) {

@@ -7,7 +7,10 @@
   <a href="javascript:
     (function(d){
       var body = d.body,
-      script = d.createElement('script');
+      script = d.createElement('script'),
+      filler = d.getElementById('faker-filler');
+      if(filler != undefined) filler.remove();
+      script.setAttribute('id', 'faker-filler');
       script.src = 'http://localhost:8080/prefill.js';
       body.appendChild(script);
     }(window.document));
